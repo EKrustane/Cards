@@ -14,7 +14,8 @@ namespace Cards
     public partial class Desk : Form
     {
         private string folderPath = null;
-        private string[] fileNames = null; 
+        private string[] fileNames = null;
+        Random rand = new Random();
 
         public Desk()
         {
@@ -25,10 +26,13 @@ namespace Cards
         private void InitializeDesk()
         {
             this.BackColor = Color.Black;
+            this.Height = 500;
+            this.Width = 500;
         }
 
         private void LoadCards_Click(object sender, EventArgs e)
         {
+
             PictureBox filePictureBox = null;
             folderPath = @"C:\Users\asus\Desktop\Playing Cards\Playing Cards\playing_card_images\face";
             fileNames = Directory.GetFiles(folderPath);
@@ -40,8 +44,8 @@ namespace Cards
                     Height = 100,
                     Width = 70,
                     SizeMode = PictureBoxSizeMode.StretchImage,
-                    Left = 100,
-                    Top = 100,
+                    Left = rand.Next(0, 400),
+                    Top = rand.Next(50, 300),
                     Image = Image.FromFile(fileName)
                 };
                 this.Controls.Add(filePictureBox);
