@@ -45,7 +45,7 @@
             this.DeckCards});
             this.toolStrip1.Location = new System.Drawing.Point(0, 0);
             this.toolStrip1.Name = "toolStrip1";
-            this.toolStrip1.Size = new System.Drawing.Size(800, 38);
+            this.toolStrip1.Size = new System.Drawing.Size(800, 34);
             this.toolStrip1.TabIndex = 0;
             this.toolStrip1.Text = "toolStrip1";
             // 
@@ -56,7 +56,7 @@
             this.LoadCards.Image = ((System.Drawing.Image)(resources.GetObject("LoadCards.Image")));
             this.LoadCards.ImageTransparentColor = System.Drawing.Color.Magenta;
             this.LoadCards.Name = "LoadCards";
-            this.LoadCards.Size = new System.Drawing.Size(105, 33);
+            this.LoadCards.Size = new System.Drawing.Size(105, 29);
             this.LoadCards.Text = "Load Cards";
             this.LoadCards.Click += new System.EventHandler(this.LoadCards_Click);
             // 
@@ -66,7 +66,7 @@
             this.StackCards.Image = ((System.Drawing.Image)(resources.GetObject("StackCards.Image")));
             this.StackCards.ImageTransparentColor = System.Drawing.Color.Magenta;
             this.StackCards.Name = "StackCards";
-            this.StackCards.Size = new System.Drawing.Size(107, 33);
+            this.StackCards.Size = new System.Drawing.Size(107, 29);
             this.StackCards.Text = "Stack Cards";
             this.StackCards.Click += new System.EventHandler(this.StackCards_Click);
             // 
@@ -76,7 +76,7 @@
             this.DeckCards.Image = ((System.Drawing.Image)(resources.GetObject("DeckCards.Image")));
             this.DeckCards.ImageTransparentColor = System.Drawing.Color.Magenta;
             this.DeckCards.Name = "DeckCards";
-            this.DeckCards.Size = new System.Drawing.Size(105, 33);
+            this.DeckCards.Size = new System.Drawing.Size(105, 29);
             this.DeckCards.Text = "Deck Cards";
             this.DeckCards.Click += new System.EventHandler(this.DeckCards_Click);
             // 
